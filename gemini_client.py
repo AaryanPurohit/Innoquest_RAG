@@ -16,7 +16,7 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize text generation model
-_text_model = genai.GenerativeModel("gemini-2.5-flash")
+_text_model = genai.GenerativeModel("gemini-2.0-flash")
 
 def get_embedding(text: str):
     """Get embedding using sentence transformers."""

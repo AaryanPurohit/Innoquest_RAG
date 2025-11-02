@@ -1,7 +1,7 @@
 import os, pickle, numpy as np, faiss, time
 from tqdm import tqdm
 from chunking import build_chunks_from_pdf
-from ollama_client import get_embedding
+from gemini_client import get_embedding
 
 PDF_DIR = "data/pdfs"
 STORAGE_DIR = "storage"

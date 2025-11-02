@@ -145,7 +145,7 @@ import os
 import pickle
 import numpy as np
 import faiss
-from ollama_client import get_embedding, generate_answer
+from gemini_client import get_embedding, generate_answer
 
 STORAGE_DIR = "storage"
 INDEX_PATH = os.path.join(STORAGE_DIR, "faiss_index.bin")
